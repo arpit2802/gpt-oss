@@ -5,3 +5,15 @@ __pycache__
 *.egg*
 node_modules/
 *.log
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+
+# macOS
+.DS_Store
